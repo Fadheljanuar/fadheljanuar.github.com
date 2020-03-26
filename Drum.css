@@ -1,0 +1,249 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0;
+    background-color: beige;
+}
+#countainer{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -20px;
+    background-color: beige;
+
+}
+
+
+.Mainmenu a{
+    color: brown;
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+   text-decoration: none;
+   font-family: 'Dancing Script', cursive;
+   
+   
+    
+}.Mainmenu{
+    margin: middle;
+    text-align: center;
+    height: 10px;
+    margin-top: -40px;
+}
+
+.garis{
+    background-color: rgb(150, 75,0);
+    height: 10px;
+
+}
+.judul{
+    width: 100%;
+    height: 100px;
+}
+
+.backjudul h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0px;
+}
+.grow{
+    display: inline-block;
+}
+h1{
+    color: brown;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+.grow:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.content{
+    background-color: beige;
+    width: 100%;
+    height: 500%;
+    resize: both;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+}
+.MySkills {
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 10px;
+    font-size: 100px;
+    color:white;
+}
+.DescInt1{
+    color: rgb(150, 75,0);
+    text-align: left;
+    font-size: 21px;
+    margin-left: 250px;
+    margin-top: -87px;
+    width: auto;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+
+    
+}
+.Editing{
+    margin-left: -220px;
+    margin-top: -180px;
+    width: 200px;
+    height: 300px;
+}
+.DescInt2{
+    color: rgb(150, 75,0);
+    text-align: left;
+    margin-right: 500px;
+    font-size: 21px;
+    margin-top: 50px;
+    width: auto;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    
+}
+.social{
+    width: 450px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left:950px;
+    
+    
+}
+.DescInt3{
+    color: rgb(150, 75,0);
+    text-align: left;
+    font-size: 21px;
+    margin-left: 300px;
+    margin-top: 0px;
+    width: auto;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+
+}
+.Music{
+    width: 200px;
+    height:  250px;
+    margin-left: -250px;
+    margin-top: -200px;
+}
+.gambar{
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.gambarbawah {
+    display: inline block;
+    position: absolute;
+    left: 44%;
+    bottom: -70px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 100px;
+    background-color:  rgb(150, 75,0);
+}
+.gambar1{
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.gambar2{
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 500px;
+    right: 50px;
+   
+}
+.gambarStick b{
+    position: absolute;
+    left: 310px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: black;
+    background-color: wheat;
+    border: 5px solid rgb(150, 75,0);
+    top: 150px;
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    }
+.gambarStick c{
+    position: absolute;
+    left: 310px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    top: 230px;
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    width: 50%;
+    border: 5px solid rgb(150, 75,0);
+    border-radius: 50px;
+    padding-left: 30px;
+    }
+.gambarStick d{
+    position: absolute;
+    right: 310px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: black;
+    background-color: wheat;
+    border: 5px solid rgb(150, 75,0);
+    top: 500px;
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+        }
+        .gambarStick e{
+            position: absolute;
+            right: 310px;
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+            top: 580px;
+            transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+            width: 70%;
+            border: 5px solid rgb(150, 75,0);
+            border-radius: 50px;
+            padding-right: 30px;
+            text-align: right;
+            }
+.gambarE{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+.gambarEditing h1{
+    text-decoration: none;
+    position: absolute;
+    right:  300px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: black;
+    top: 750px;
+    
+    transition: all 1250ms cubic-bezier(0.19, 1,0.22,1);
+    }
